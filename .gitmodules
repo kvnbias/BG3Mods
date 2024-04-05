@@ -1,0 +1,15 @@
+[submodule "CoreLibrary"]
+	path = CoreLibrary
+	url = https://github.com/kvnbias/CoreLibrary.git
+[submodule "EncountersOverhaul"]
+	path = EncountersOverhaul
+	url = https://github.com/kvnbias/EncountersOverhaul.git
+[submodule "EncountersOverhaul5eSpells"]
+	path = EncountersOverhaul5eSpells
+	url = https://github.com/kvnbias/EncountersOverhaul5eSpells.git
+[submodule "HigherExpRequirements"]
+	path = HigherExpRequirements
+	url = https://github.com/kvnbias/HigherExpRequirements.git
+[submodule "RAW"]
+	path = RAW
+	url = https://github.com/kvnbias/RAW.git
