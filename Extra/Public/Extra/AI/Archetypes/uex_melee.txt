@@ -1,0 +1,90 @@
+
+// --- TACTICIAN/base
+
+// Combos are taking into account when positioning as well
+MULTIPLIER_COMBO_SCORE_INTERACTION				0.90
+MULTIPLIER_COMBO_SCORE_POSITIONING				0.50
+
+// More agressive on CC enemies
+MULTIPLIER_CONTROL_ENEMY_POS					1.5
+MULTIPLIER_CONTROL_ENEMY_NEG					1.5
+
+ENABLE_ACTIVE_DEFENSE_OFFENSIVE_USE				1
+
+// Less interested in attacking a character that could block
+MULTIPLIER_SHIELD_BLOCK							1.5
+
+// Less prone to disregard targets that are already attacked by 1 or more characters
+MULTIPLIER_TARGET_HOSTILE_COUNT_ONE				0.90
+MULTIPLIER_TARGET_HOSTILE_COUNT_TWO_OR_MORE		0.60
+
+// More interested in dealing the killing blow
+MULTIPLIER_KILL_ENEMY							1.50
+
+// A general multiplier for all reflected damage
+MULTIPLIER_REFLECT_DAMAGE						0.25
+
+//Reason better about hit/miss
+MODIFIER_HIT_CHANCE_STUPIDITY 					0.7
+
+// --- base
+
+MULTIPLIER_TARGET_SUMMON						0.50
+
+MULTIPLIER_TARGET_INCAPACITATED					1.00
+MULTIPLIER_TARGET_KNOCKED_DOWN					1.25
+
+MULTIPLIER_TARGET_ALLY_DOWNED 					1.10
+MULTIPLIER_TARGET_NEUTRAL_DOWNED				1.00
+
+INSTAKILL_BASE_SCORE							1.5
+
+// How important critical strikes are for this character
+MULTIPLIER_CRITICAL								1.00
+
+// How important resistances/immunities are for this character
+MULTIPLIER_RESISTANCE_STUPIDITY					1.00
+
+// If != 0 the active defense status can be used offensively by Ai instead of only defensively
+ENABLE_ACTIVE_DEFENSE_OFFENSIVE_USE				0
+
+// Multiplier for how much the Shield Block has influence over the entire AI calculation
+// Normal ranges are between 0 and 1 inclusive:
+// - 0 being the AI doesn't care if a character has shield block
+// - 1 being the AI cares a normalised amount about a character with shield block
+MULTIPLIER_SHIELD_BLOCK							1.0
+
+// Modifier used to change score of picking up a weapon when it was equipped before
+WEAPON_PICKUP_MODIFIER_PREVIOUSLY_EQUIPPED 1.25
+
+// Modifier used to change the score of removing a target's concentration (other than itself) 
+MODIFIER_CONCENTRATION_REMOVE_TARGET 					0.0
+
+////////////////////////////////////////////////////////////////////////////////////////////
+
+//This archetype is intended for average humanoids like guards/bandits/soldiers etc
+
+// Melee characters dont't care much about flanking
+MULTIPLIER_ENDPOS_FLANKED						-0.01
+
+// Melee characters loves contact boosts
+MULTIPLIER_CONTACT_BOOST						1.00
+
+MULTIPLIER_FALLBACK_ALLIES_NEARBY				0.00
+MULTIPLIER_FALLBACK_ENEMIES_NEARBY				1.00
+
+FALLBACK_ENEMIES_NEARBY_MIN_DISTANCE			2.3
+
+//Characters using Melee have better than average hit/miss reasoning
+- MODIFIER_HIT_CHANCE_STUPIDITY 				0.15
+
+MULTIPLIER_ENEMY_HEIGHT_DIFFERENCE				0.0
+
+//melee cares less about ignore AoO
+MULTIPLIER_BOOST_IGNORE_AOO 					0.005
+
+//Don't care as much about sight range as they are melee anyways
+MULTIPLIER_BOOST_SIGHT_RANGE 0.02
+
+//melee cares more about retrieving their weapons
+WEAPON_PICKUP_MODIFIER							 1.0

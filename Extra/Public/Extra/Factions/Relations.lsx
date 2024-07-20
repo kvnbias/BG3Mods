@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="5" revision="0" build="300"/>
+    <region id="FactionManager">
+        <node id="root">
+            <children>
+                <node id="Relations">
+                    <children>
+                        <node id="Relation">
+                            <attribute id="Source" type="guid" value="a1542c81-6895-929e-4522-10ce218bb360"/>
+                            <attribute id="Target" type="guid" value="8d307028-45e1-4c07-88ef-fb19661953b2"/>
+                            <attribute id="Value" type="int32" value="0"/>
+                        </node>
+                        <node id="Relation">
+                            <attribute id="Source" type="guid" value="8d307028-45e1-4c07-88ef-fb19661953b2"/>
+                            <attribute id="Target" type="guid" value="a1542c81-6895-929e-4522-10ce218bb360"/>
+                            <attribute id="Value" type="int32" value="0"/>
+                        </node>
+
+                        <node id="Relation">
+                            <attribute id="Source" type="guid" value="e1234697-59a4-4427-af77-695229f11622"/>
+                            <attribute id="Target" type="guid" value="8d307028-45e1-4c07-88ef-fb19661953b2"/>
+                            <attribute id="Value" type="int32" value="0"/>
+                        </node>
+                        <node id="Relation">
+                            <attribute id="Source" type="guid" value="8d307028-45e1-4c07-88ef-fb19661953b2"/>
+                            <attribute id="Target" type="guid" value="e1234697-59a4-4427-af77-695229f11622"/>
+                            <attribute id="Value" type="int32" value="0"/>
+                        </node>
+
+                        <node id="Relation">
+                            <attribute id="Source" type="guid" value="08ffe485-41fb-4298-9078-bb3f0b6d15ec"/>
+                            <attribute id="Target" type="guid" value="8d307028-45e1-4c07-88ef-fb19661953b2"/>
+                            <attribute id="Value" type="int32" value="0"/>
+                        </node>
+                        <node id="Relation">
+                            <attribute id="Source" type="guid" value="8d307028-45e1-4c07-88ef-fb19661953b2"/>
+                            <attribute id="Target" type="guid" value="08ffe485-41fb-4298-9078-bb3f0b6d15ec"/>
+                            <attribute id="Value" type="int32" value="0"/>
+                        </node>
+
+                        <node id="Relation">
+                            <attribute id="Source" type="guid" value="ffc86327-7a24-426d-a7de-84d7ad51deef"/>
+                            <attribute id="Target" type="guid" value="8d307028-45e1-4c07-88ef-fb19661953b2"/>
+                            <attribute id="Value" type="int32" value="0"/>
+                        </node>
+                        <node id="Relation">
+                            <attribute id="Source" type="guid" value="8d307028-45e1-4c07-88ef-fb19661953b2"/>
+                            <attribute id="Target" type="guid" value="ffc86327-7a24-426d-a7de-84d7ad51deef"/>
+                            <attribute id="Value" type="int32" value="0"/>
+                        </node>
+                    </children>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

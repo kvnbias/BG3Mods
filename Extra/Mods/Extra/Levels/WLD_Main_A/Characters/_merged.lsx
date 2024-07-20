@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Templates">
+		<node id="Templates">
+			<children>
+				/// DAKS
+				<node id="GameObjects">
+					<attribute id="Archetype" type="FixedString" value="uex_dragon" />
+					<attribute id="CombatGroupID" type="FixedString" value="c8061c1a-e96a-48c9-8601-eb459f69ab08" />
+					<attribute id="Faction" type="guid" value="8d307028-45e1-4c07-88ef-fb19661953b2" />
+					<attribute id="BloodSurfaceType" type="FixedString" value="SurfaceNone" />
+					<attribute id="CanBeTeleported" type="bool" value="False" />
+					<attribute id="CanClimbLadders" type="bool" value="False" />
+					<attribute id="CanJoinCombat" type="bool" value="True" />
+					<attribute id="CanOpenDoors" type="bool" value="False" />
+					<attribute id="DisplayName" type="TranslatedString" handle="c3246e12-6edb-41ae-9986-83029f878fb5" version="1" />
+					<attribute id="Flag" type="int32" value="1" />
+					<attribute id="IsBoss" type="bool" value="True" />
+					<attribute id="IsGlobal" type="bool" value="False" />
+					<attribute id="IsLootable" type="bool" value="True" />
+					<attribute id="LevelName" type="FixedString" value="WLD_Main_A" />
+					<attribute id="LevelOverride" type="int32" value="8" />
+					<attribute id="Stats" type="FixedString" value="UEX_YoungRedDragon" />
+					<attribute id="MapKey" type="FixedString" value="526e3d7f-cc97-46bb-a81a-4cbec355a519" />
+					<attribute id="Name" type="LSString" value="UEX_Daks" />
+					<attribute id="TemplateName" type="FixedString" value="79f4a5ac-b800-43e7-bee2-a73e046d3d5b" />
+					<attribute id="Type" type="FixedString" value="character" />
+					<attribute id="_OriginalFileVersion_" type="int64" value="144115207403209035" />
+					<children>
+						<node id="LayerList" />
+						<node id="LocomotionParams" />
+						<node id="Treasures">
+							<children>
+								<node id="TreasureItem">
+									<attribute id="Object" type="FixedString" value="MOX_DRAKE_TREASURE" />
+								</node>
+							</children>
+						</node>
+						<node id="StatusList">
+							<children>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="UEX_INVISIBLE_HIDDEN" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="UEX_BLOODY_VFX" />
+								</node>
+								<node id="Status">
+									<attribute id="Object" type="FixedString" value="UEX_GAPING_WOUND" />
+								</node>
+							</children>
+						</node>
+						<node id="Transform">
+							<attribute id="Position" type="fvec3" value="38.74201965332 31.597230911255 400.58850097656" />
+							<attribute id="RotationQuat" type="fvec4" value="0.0 -0.5373416543006897 0.0 0.8433646559715271" />
+							<attribute id="Scale" type="float" value="0.80" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

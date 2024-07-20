@@ -1,0 +1,16 @@
+{
+  "Mods": [
+    {
+      "Author": "utut",
+      "Name": "EncountersOverhaulZeroExp",
+      "Folder": "EncountersOverhaulZeroExp",
+      "Version": "72057594037927936",
+      "Description": "Addon that brings down exp rewards to zero for EncountersOverhaul",
+      "UUID": "ec7e49ed-e6d8-465f-ae8b-0167bd635040",
+      "Created": "2024-05-10T01:42:54.5158746+02:00",
+      "Dependencies": [],
+      "Group": "f8365f8f-39a1-47e0-8b7a-405aaad9cc1c"
+    }
+  ],
+  "MD5": "b101109a0a2709c81dc905508c57502c"
+}

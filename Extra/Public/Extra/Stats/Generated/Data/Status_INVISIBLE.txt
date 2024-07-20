@@ -1,0 +1,9 @@
+
+new entry "UEX_INVISIBLE_HIDDEN"
+type "StatusData"
+data "StatusType" "INVISIBLE"
+using "INVISIBLE"
+data "RemoveEvents" "OnSpellCast"
+data "StatusPropertyFlags" "UnavailableInActiveRoll;ExcludeFromPortraitRendering;DisableOverhead;DisableCombatlog;DisablePortraitIndicator"
+data "RemoveConditions" "(IsStatusEvent(StatusEvent.OnSpellCast) and not HasSpellFlag(SpellFlags.Invisible)) or (not IsStatusEvent(StatusEvent.OnSpellCast) and not IsStatusEvent(StatusEvent.OnDamage))"
+data "StatusGroups" "SG_RemoveOnRespec"

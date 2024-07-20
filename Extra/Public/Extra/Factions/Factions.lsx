@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="5" revision="0" build="300"/>
+    <region id="FactionContainer">
+        <node id="root">
+            <children>
+                <node id="Faction">
+                    <attribute id="Faction" type="FixedString" value="GLO_Generic_Player_Enemy_UEX"/>
+                    <attribute id="ParentGuid" type="guid" value="00000000-0000-0000-0000-000000000000"/>
+                    <attribute id="UUID" type="guid" value="a8e36360-348f-47cc-a532-81719f8136d8"/>
+                </node>
+
+                <node id="Faction">
+                    <attribute id="Faction" type="FixedString" value="ACT1_DEN_Dragon_UEX"/>
+                    <attribute id="ParentGuid" type="guid" value="a8e36360-348f-47cc-a532-81719f8136d8"/>
+                    <attribute id="UUID" type="guid" value="8d307028-45e1-4c07-88ef-fb19661953b2"/>
+                </node>
+            </children>
+        </node>
+    </region>
+</save>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+	<content contentuid="1081baac-fe85-4cb8-b2a6-317693349ee5" version="1">Placeholder Text</content>
+
+	<content contentuid="7ea9de91-b6b8-4d77-880d-bae776ce9ce8" version="1">-- Names --</content>
+
+	<content contentuid="29be6b07-f82b-44db-b3c8-bec036a3aa73" version="1">Young Red Dragon</content>
+	<content contentuid="c3246e12-6edb-41ae-9986-83029f878fb5" version="1">Daks</content>
+
+	<content contentuid="8b3d2ba3-7c4d-4730-8b04-7f9af1c816af" version="1">-- Passive --</content>
+
+	<content contentuid="c81ad93e-36ca-436c-978d-5b516c03f1b6" version="1">Lesser Magic Resistance</content>
+	<content contentuid="bacba4b8-2f0e-440c-b8bd-5fde0c7c79a5" version="1">Has +1 roll bonus on &lt;LSTag Tooltip="SavingThrow"&gt;Saving Throws&lt;/LSTag&gt; against spells and other magical effects.</content>
+	<content contentuid="d9afc1be-1311-49a0-b5d7-878d7cae8db8" version="1">Lesser Wyrm's Scales</content>
+	<content contentuid="ef0f0b05-42de-48f7-a86b-1f29372be77a" version="1">All incoming damage reduced by 1.</content>
+	<content contentuid="da9aaf4e-075f-4224-ae0a-77366e4cce8e" version="1">All incoming damage reduced by 3.</content>
+</contentList>

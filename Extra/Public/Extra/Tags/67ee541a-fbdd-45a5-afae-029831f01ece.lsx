@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<save>
+	<version major="4" minor="0" revision="9" build="0" lslib_meta="v1,bswap_guids" />
+	<region id="Tags">
+		<node id="Tags">
+			<attribute id="Description" type="LSString" value="Tag if the daks is already in combat" />
+			<attribute id="DisplayDescription" type="TranslatedString" handle="1081baac-fe85-4cb8-b2a6-317693349ee5" version="1" />
+			<attribute id="DisplayName" type="TranslatedString" handle="1081baac-fe85-4cb8-b2a6-317693349ee5" version="1" />
+			<attribute id="Icon" type="FixedString" value="" />
+			<attribute id="Name" type="FixedString" value="IS_DAKS_IN_COMBAT" />
+			<attribute id="UUID" type="guid" value="67ee541a-fbdd-45a5-afae-029831f01ece" />
+			<children>
+				<node id="Categories">
+					<children>
+						<node id="Category">
+							<attribute id="Name" type="LSString" value="Code" />
+						</node>
+					</children>
+				</node>
+			</children>
+		</node>
+	</region>
+</save>

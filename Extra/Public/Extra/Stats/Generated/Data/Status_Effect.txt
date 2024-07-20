@@ -1,0 +1,12 @@
+
+new entry "UEX_BLOODY_VFX"
+type "StatusData"
+data "StatusType" "BOOST"
+data "DisplayName" "hd941469fg0124g4de3g89f0gf737dd76f0a8;3"
+data "Description" "h1e72df79g9523g431cgacefg97f7bc3e91a7;4"
+data "Icon" "Spell_Necromancy_Contagion_FilthFever"
+data "SoundStart" "Spell_Status_FilthFever_Trigger"
+data "SoundLoop" "Spell_Status_FilthFever"
+data "SoundStop" "Spell_Status_FilthFever_Stop"
+data "StatusEffect" "96692c65-585d-4b29-94a3-286e7f4aebe1"
+data "StatusPropertyFlags" "DisableOverhead;DisableCombatlog;DisablePortraitIndicator;IgnoreResting;ApplyToDead"
